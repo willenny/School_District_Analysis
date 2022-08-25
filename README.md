@@ -14,14 +14,19 @@ The purpose of this analysis was to highlight the differences that will occur in
 -How is the district summary affected?
   - Due to there only being 461 ninth grade students in Thomas High School, out of the 39,170 (~1%), the removal of the reading and math scores did not have a large impact on any components of the district summary.
 
-District Summary, with Thomas High School ninth graders
+**District Summary, with Thomas High School ninth graders**
 ![District_Summary_Full](https://user-images.githubusercontent.com/109091887/186651315-0be756a1-f52c-4d3c-b0a2-a7874e97d56b.PNG)
-District Summary, without Thomas High School ninth graders
+**District Summary, without Thomas High School ninth graders**
 ![District_Summary_New](https://user-images.githubusercontent.com/109091887/186651363-7cdfbd6e-3552-446e-89a0-2983568277c5.PNG)
 
 
 -How is the school summary affected?
-  -
+  -The first four columns of the school summary will be the same due to the number of students in the data staying the same. The following 5 columns 
+  
+ **School Summary, with Thomas High School ninth graders**
+ ![School_Summary_Full](https://user-images.githubusercontent.com/109091887/186653601-055e5d29-a0a3-4cd4-92c6-aeb1a526a064.PNG)
+ **School Summary, without Thomas High School ninth graders**
+![School_Summary_New](https://user-images.githubusercontent.com/109091887/186653616-9f777ac9-eeb1-429e-bf3e-623c036ce8ee.PNG)
 
 -How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
   -
