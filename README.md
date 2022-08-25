@@ -21,7 +21,7 @@ The purpose of this analysis was to highlight the differences that will occur in
 
 
 -How is the school summary affected?
-  -The first four columns of the school summary will be the same due to the number of students in the data staying the same. The following 5 columns 
+  -The first four columns of the school summary will be the same due to the number of students in the data staying the same. The following 5 columns are affected, but at different levels of significance. The Average Math Score and Average Reading Score are only slightly affected, whereas the % Passing Math, % Passing Reading, and % Overall Passing are greatly increased after the ninth graders data was removed. This implies that the ninth graders scored poorly on math and reading compared to the upperclassmen. 
   
  **School Summary, with Thomas High School ninth graders**
  ![School_Summary_Full](https://user-images.githubusercontent.com/109091887/186653601-055e5d29-a0a3-4cd4-92c6-aeb1a526a064.PNG)
