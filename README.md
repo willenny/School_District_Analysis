@@ -22,16 +22,16 @@ The purpose of this analysis was to highlight the differences that will occur in
 
 
 - How is the school summary affected?
-  - The first four columns of the school summary will be the same due to the number of students in the data staying the same. The following 5 columns are affected, but at different levels of significance. The Average Math Score and Average Reading Score are only slightly affected, whereas the % Passing Math, % Passing Reading, and % Overall Passing are greatly decreased after the ninth graders data was removed. Due to this drastic drop, there may be a strong case that there was academic dishonesty occuring among the ninth grade students at Thomas High School.  
+  - The first four columns of the school summary will be the same due to the number of students in the data staying the same. The following 5 columns are affected, but with little significance. After the upperclassmen % Passing Math, % Passing Reading, and % Overall Passing are calculated and entered into the school summary DataFrame, each respected category is only slightly changed.  
   
 **School Summary, with Thomas High School ninth graders**
 ![School_Summary_Full](https://user-images.githubusercontent.com/109091887/186653601-055e5d29-a0a3-4cd4-92c6-aeb1a526a064.PNG)
  
 **School Summary, without Thomas High School ninth graders**
-![School_Summary_New](https://user-images.githubusercontent.com/109091887/186653616-9f777ac9-eeb1-429e-bf3e-623c036ce8ee.PNG)
+![School_Summary_New](https://user-images.githubusercontent.com/109091887/186670984-4856130d-83f7-452a-9b67-6fb312d6d82e.PNG)
 
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-  - With the ninth graders' math and reading scores included in the overall school data, Thomas High School ranks 2nd among all schools, using % Overall Passing. When the ninth graders' scores are repalces, Thomas High School falls to 
+  - With the ninth graders' math and reading scores included in the overall school data, Thomas High School ranks 2nd among all schools, using % Overall Passing. When the ninth graders' scores are replaced, Thomas High school remains at 2nd, of the 15 schools in the district.
 
 How does replacing the ninth-grade scores affect the following:
 -Math and reading scores by grade
