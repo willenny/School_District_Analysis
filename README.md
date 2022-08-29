@@ -4,7 +4,7 @@
 The school board has notified Maria and her supervisor that their is evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth  She has asked me to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once I replaced the math and reading scores, Maria would requested me to repeat the school district analysis that I did in this module and write up a report to describe how these changes affected the overall analysis.
 
 ## Purpose
-The purpose of this analysis was to highlight the differences that will occur in the student data and school data after math and reading scores of the ninth grade students in Thomas High School are removed. To help Maria present the information to the school board, I will show her the major differences between the district summary, school summary, Thomas High School's performance relative to the other schools, math and reading scores bby grade, scores by school spending, scores by school size, and scores by school type.
+The purpose of this analysis was to highlight the differences that will occur in the student data and school data after math and reading scores of the ninth grade students in Thomas High School are removed. To help Maria present the information to the school board, I will show her the major differences between the district summary, school summary, Thomas High School's performance relative to the other schools, math and reading scores by grade, scores by school spending, scores by school size, and scores by school type.
 
 ### Resources
 - Data Source: schools_complete.csv, students_complete.csv
@@ -22,7 +22,7 @@ The purpose of this analysis was to highlight the differences that will occur in
 
 
 - How is the school summary affected?
-  - The first four columns of the school summary will be the same due to the number of students in the data staying the same. The following 5 columns are affected, but with little significance. After the upperclassmen % Passing Math, % Passing Reading, and % Overall Passing are calculated and entered into the school summary DataFrame, each respected category is only slightly changed.  
+  - The first four columns of the school summary will be the same due to the number of students in the data staying the same. The following 5 columns are affected, but with little significance. After the upperclassmen's % Passing Math, % Passing Reading, and % Overall Passing are calculated and entered into the school summary DataFrame, each respected category is only slightly changed.  
   
 **School Summary, with Thomas High School ninth graders**
 ![School_Summary_Full](https://user-images.githubusercontent.com/109091887/186653601-055e5d29-a0a3-4cd4-92c6-aeb1a526a064.PNG)
@@ -72,4 +72,5 @@ How does replacing the ninth-grade scores affect the following:
 **Scores by School Type, without Thomas ninth graders**
 ![Scores_by_SchoolType_New](https://user-images.githubusercontent.com/109091887/187215768-713739ff-eda2-4fdd-a592-5c690e64197e.PNG)
 
-
+## Summary
+After the ninth grade students from Thomas High School are removed, it is unclear if there was plagiarism occuring. I would recommend looking further into the details of the ninth graders opposed to comparing the overall metrics with and without them. Due to the large about of students in the district, when looking at the values that include all of these students, we are not able to see changes. This includes the district summary, scores by school spending, scores by school size, and scores by school type. When looking specifically at Thomas High School in the per school summary, we are able to see five minor changes occur in Average Math Score, Average Reading Score, % Passing Math, % Passing Reading, and % Overall Passing. These minor changes vary in whether the score or percent increases or decreases, so we are not able to make a claim that the removal of the ninth grade scores affected the overal scores of Thomas High Schools students one way or another. 
