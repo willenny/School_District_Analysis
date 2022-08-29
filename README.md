@@ -38,16 +38,38 @@ How does replacing the ninth-grade scores affect the following:
   - By replacing the ninth-grade math and reading scores, instead of the ninth-grade having math and reading scores or 83.6 and 83.7, respectively, the scores will be shown as 'NaN.' The scores for upperclassmen will remain the same. Images of the math scores are shown below.
 
 **Math Scores by Grade, with Thomas High School ninth graders**
+
 ![Math_Scores_by_Grade_Full](https://user-images.githubusercontent.com/109091887/187212196-462629a7-fecd-4ca1-92c0-b08d5f47b18d.PNG)
 
 **Math Scores by Grade, without Thomas High School ninth graders**
+
 ![Math_Scores_by_Grade_New](https://user-images.githubusercontent.com/109091887/187212246-e129173a-a5d6-4599-b5e4-0894d2675e71.PNG)
 
--Scores by school spending
-  -
+- Scores by school spending
+  - Thomas High Schools falls in the $631-645 spending range. When looking at the values for Average Math Score,	Average Reading Score,	% Passing Math,	% Passing Reading, and	% Overall Passing, they are only slightly affected when the ninth grade students are removed. Once the value are rounded, there is no difference between in the values of the two charts.
 
--Scores by school size
-  -
+**Scores by School Spending, with Thomas High School ninth graders**
+![Scores_by_Spending_Full](https://user-images.githubusercontent.com/109091887/187212929-7e2396a1-d97d-48b1-b884-c74eb80bac05.PNG)
 
--Scores by school type
-  -
+**Scores by School Spending, without Thomas High School ninth graders**
+![Scores_by_Spending_New](https://user-images.githubusercontent.com/109091887/187212949-436fc33a-56b9-4aa3-8590-ddd201907e90.PNG)
+
+- Scores by school size
+  - Thomas High Schools falls in the Medium (1000-1999) school size range. Similarly to the Scores by School Spending, you can only see the change by comparing the tables before rounding the values. Therefore, the removal of the ninth-grade students had little to no effect on the scores by school size.
+
+**Scores by School Size, with Thomas High School ninth graders**
+![Scores_by_SchoolSize_Full](https://user-images.githubusercontent.com/109091887/187214514-0f493f9c-bd62-4694-9587-c32c017e1f25.PNG)
+
+**Scores by School Size, without Thomas High School ninth graders**
+![Scores_by_SchoolSize_New](https://user-images.githubusercontent.com/109091887/187214529-e1632be3-a087-4378-a77e-c57720a6a80c.PNG)
+
+- Scores by school type
+  - Thomas High School is a Charter School. As one may predict by the end of this analysis, the removal of the ninth grade students had minimal effect on each of the categories.
+
+**Scores by School Type, with Thomas ninth graders**
+![Scores_by_SchoolType_Full](https://user-images.githubusercontent.com/109091887/187215743-819fee60-ca79-4608-a0a0-58dfeb8f8e50.PNG)
+
+**Scores by School Type, without Thomas ninth graders**
+![Scores_by_SchoolType_New](https://user-images.githubusercontent.com/109091887/187215768-713739ff-eda2-4fdd-a592-5c690e64197e.PNG)
+
+
