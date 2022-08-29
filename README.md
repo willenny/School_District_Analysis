@@ -4,7 +4,7 @@
 The school board has notified Maria and her supervisor that their is evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth  She has asked me to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once I replaced the math and reading scores, Maria would requested me to repeat the school district analysis that I did in this module and write up a report to describe how these changes affected the overall analysis.
 
 ## Purpose
-The purpose of this analysis was to highlight the differences that will occur in the student data and school data after math and reading scores of the ninth grade students in Thomas High School are removed. To help Maria present the information to the school board, I will show her the major differences between the districy summary, school summary, Thomas High School's performance relative to the other schools, math and reading scores bby grade, scores by school spending, scores by school size, and scores by school type.
+The purpose of this analysis was to highlight the differences that will occur in the student data and school data after math and reading scores of the ninth grade students in Thomas High School are removed. To help Maria present the information to the school board, I will show her the major differences between the district summary, school summary, Thomas High School's performance relative to the other schools, math and reading scores bby grade, scores by school spending, scores by school size, and scores by school type.
 
 ### Resources
 - Data Source: schools_complete.csv, students_complete.csv
@@ -34,8 +34,14 @@ The purpose of this analysis was to highlight the differences that will occur in
   - With the ninth graders' math and reading scores included in the overall school data, Thomas High School ranks 2nd among all schools, using % Overall Passing. When the ninth graders' scores are replaced, Thomas High school remains at 2nd, of the 15 schools in the district.
 
 How does replacing the ninth-grade scores affect the following:
--Math and reading scores by grade
-  -
+- Math and reading scores by grade
+  - By replacing the ninth-grade math and reading scores, instead of the ninth-grade having math and reading scores or 83.6 and 83.7, respectively, the scores will be shown as 'NaN.' The scores for upperclassmen will remain the same. Images of the math scores are shown below.
+
+**Math Scores by Grade, with Thomas High School ninth graders**
+![Math_Scores_by_Grade_Full](https://user-images.githubusercontent.com/109091887/187212196-462629a7-fecd-4ca1-92c0-b08d5f47b18d.PNG)
+
+**Math Scores by Grade, without Thomas High School ninth graders**
+![Math_Scores_by_Grade_New](https://user-images.githubusercontent.com/109091887/187212246-e129173a-a5d6-4599-b5e4-0894d2675e71.PNG)
 
 -Scores by school spending
   -
